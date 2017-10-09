@@ -1,0 +1,10 @@
+C:\Users\guillaume\desktop\year2\OOP\Dice\bin\Debug\netcoreapp2.0\Dice.deps.json
+C:\Users\guillaume\desktop\year2\OOP\Dice\bin\Debug\netcoreapp2.0\Dice.runtimeconfig.json
+C:\Users\guillaume\desktop\year2\OOP\Dice\bin\Debug\netcoreapp2.0\Dice.runtimeconfig.dev.json
+C:\Users\guillaume\desktop\year2\OOP\Dice\bin\Debug\netcoreapp2.0\Dice.dll
+C:\Users\guillaume\desktop\year2\OOP\Dice\bin\Debug\netcoreapp2.0\Dice.pdb
+C:\Users\guillaume\desktop\year2\OOP\Dice\obj\Debug\netcoreapp2.0\Dice.csproj.CoreCompileInputs.cache
+C:\Users\guillaume\desktop\year2\OOP\Dice\obj\Debug\netcoreapp2.0\Dice.AssemblyInfoInputs.cache
+C:\Users\guillaume\desktop\year2\OOP\Dice\obj\Debug\netcoreapp2.0\Dice.AssemblyInfo.cs
+C:\Users\guillaume\desktop\year2\OOP\Dice\obj\Debug\netcoreapp2.0\Dice.dll
+C:\Users\guillaume\desktop\year2\OOP\Dice\obj\Debug\netcoreapp2.0\Dice.pdb
