@@ -5,40 +5,43 @@ namespace Dice
 {
     class Cup:Die
     {
-        int diceContain;
+        
         List<Die> Dice = new List<Die>();
         public Cup()
         {
-            diceContain = 0;
+            
         }
         public void Add(Die die)
         {
-            diceContain += 1;
             Dice.Add(die);
 
         }
         public void Remove(Die die)
         {
-            if (diceContain <= 0)
+            if (Dice.Count <= 0)
             {
                 Console.WriteLine("Your cup is already Empty");
             }
             else{
-            diceContain -=1;
+                Console.WriteLine("Which dice do you want to remove?");
+            foreach(Die di in Dice)
+                {
+                    Console.WriteLine(di);
+                }
+            
             }
         }
         public void Show()
         {
-            Console.WriteLine("The cup currently contains {0} dice", diceContain);
+            Console.WriteLine("The cup currently contains {0} dice", Dice.Count);
         }
         public void Empty()
         {
-            diceContain = 0;
             Dice.Clear();
         }
         public override int Roll()
         {
-            if (diceContain <= 0)
+            if (Dice.Count <= 0)
             {
                 Console.WriteLine("You can't roll an empty cup");
                 return 0;
@@ -51,7 +54,7 @@ namespace Dice
                 {
                     totalRollValue += die.Roll();
                 }
-                Console.WriteLine("You Rolled {0} dice and have a total value of {1}",diceContain ,totalRollValue);
+                Console.WriteLine("You Rolled {0} dice and have a total value of {1}",Dice.Count ,totalRollValue);
                 return totalRollValue;
             }
         }

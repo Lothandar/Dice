@@ -17,7 +17,9 @@ namespace Dice
         public virtual int Roll()
         {
             Random rnd = new Random();
-            return rnd.Next(face);
+            int result = rnd.Next(face+1);
+            Console.WriteLine("You rolled a {0} face die and obtained a {1}",face,result);
+            return result;
         }
 
     }
